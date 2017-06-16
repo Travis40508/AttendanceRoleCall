@@ -5,6 +5,10 @@ package com.company;
  */
 public class Messages {
 
+    /**
+     * Self-explanatory messages.
+     */
+
 
     public void greetUser() {
         System.out.println("Welcome to your own student directory!");
@@ -24,6 +28,34 @@ public class Messages {
     }
 
     public void queryAnother() {
-        System.out.println("Do you wish to add another?");
+        System.out.println("Do you wish to add another? \n");
+    }
+
+    public void queryStudentRemoval() {
+        System.out.println("Please enter the name of the student you wish to remove. \n");
+    }
+
+    public void queryRemoveAnother() {
+        System.out.println("Do you wish to remove another? \n");
+    }
+
+    public void queryStudentLookUp() {
+        System.out.println("Which student do you wish to look up?");
+    }
+
+    public void displayUsers(String name) {
+        System.out.println(name);
+    }
+
+    public void showStudent(String student) {
+        System.out.println(student);
+    }
+
+    public void allStudents() {
+        System.out.println("All Students:");
+    }
+
+    public void showInvalidResponse() {
+        System.out.println("Invalid Response. Please try again.");
     }
 }
